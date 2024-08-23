@@ -7,8 +7,8 @@ import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import TextInput from "@components/ui/forms/input/TextInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
-import { contactFormSchema } from "./types";
 import { sendEmail } from "./sendEmail";
+import { contactFormSchema } from "./types";
 
 // Define the variables that will be used in this component
 const title: string = "Contact us";
@@ -26,6 +26,7 @@ if (Astro.request.method === "POST") {
     if (parseResult.success) {
       sendEmail(parseResult.data);
     } else {
+      errors.push(parseResult.error);
     }
 
     // Do something with the data
@@ -82,6 +83,11 @@ if (Astro.request.method === "POST") {
               label="Details"
               name="hs-about-contacts"
             />
+            {
+              errors.length > 0 ? (
+                <p class="text-md text-red-400">{JSON.stringify(errors)}</p>
+              ) : null
+            }
           </div>
 
           <div class="mt-4 grid">
