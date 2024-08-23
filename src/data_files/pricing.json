@@ -1,7 +1,7 @@
 {
-  "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
-  "badge": "Best value",
+  "title": "Best in the market",
+  "subTitle": "Effective, efficient buildings with Perancah Pro Alat",
+  "badge": "",
   "thirdOption": "Enterprise Solutions?",
   "btnText": "Get a Custom Quote",
 
@@ -23,16 +23,16 @@
   "professionalToolbox": {
     "name": "Professional Toolbox",
     "description": "Best for large scale uses",
-    "price": "89",
-    "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "price": "",
+    "cents": "",
+    "billingFrequency": "",
     "features": [
       "Premium tool selection",
       "Priority support",
       "Exclusive content & deals",
       "Bulk order discounts"
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Contact Our Sales Team",
     "purchaseLink": "#"
   }
 }

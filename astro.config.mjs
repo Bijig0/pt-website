@@ -155,13 +155,10 @@ export default defineConfig({
     }),
     react(),
   ],
-  output: "hybrid",
+  output: "static",
   experimental: {
     clientPrerender: true,
     directRenderScript: true,
-  },
-  experimental: {
-    actions: true,
   },
   adapter: vercelStatic(),
 });
