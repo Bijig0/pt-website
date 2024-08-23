@@ -1,11 +1,15 @@
 ---
+import PrimaryCTA from "@/components/ui/buttons/PrimaryCTA.astro";
+
 // Import the necessary dependencies
-import GithubBtn from "@components/ui/buttons/GithubBtn.astro";
 
 // Define props from Astro
 const { title, subTitle, url } = Astro.props;
 
-const btnTitle = Astro.currentLocale === "fr" ? "Continuer avec Github" : "Continue with Github";
+const btnTitle =
+  Astro.currentLocale === "fr"
+    ? "Continuer avec Github"
+    : "Continue with Github";
 
 // Define TypeScript interface for props
 interface Props {
@@ -138,7 +142,7 @@ interface Props {
   {
     url && (
       <div class="mt-8 flex justify-center gap-3">
-        <GithubBtn url={url} title={btnTitle}/>
+        <PrimaryCTA title={"Contact Our Sales Team"} url={"/contact"} />
       </div>
     )
   }
