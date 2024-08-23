@@ -57,7 +57,7 @@ const EmailForm = () => {
 
   const {
     mutate: sendEmailMutate,
-    isPending,
+    isLoading,
     error,
     isSuccess,
   } = useMutation({
@@ -138,7 +138,7 @@ const EmailForm = () => {
           </div>
         </div>
         <button type="submit" className="btn btn-primary btn-md mt-30">
-          {isPending ? (
+          {isLoading ? (
             <div className="spinner-border text-light" role="status">
               <span className="sr-only">Loading...</span>
             </div>

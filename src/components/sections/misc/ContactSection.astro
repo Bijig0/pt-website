@@ -1,12 +1,13 @@
 ---
 // Import the necessary dependencies.
-import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
 import ContactIconBlock from "@components/ui/blocks/ContactIconBlock.astro";
-import TextInput from "@components/ui/forms/input/TextInput.astro";
+import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
 import EmailContactInput from "@components/ui/forms/input/EmailContactInput.astro";
 import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
+import TextInput from "@components/ui/forms/input/TextInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
+import EmailForm from "./EmailForm";
 
 // Define the variables that will be used in this component
 const title: string = "Contact us";
@@ -72,6 +73,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
             </p>
           </div>
         </form>
+        <EmailForm client:only="react" />
       </div>
 
       <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
