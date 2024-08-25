@@ -3,12 +3,10 @@
 import MainLayout from "@/layouts/MainLayout.astro";
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
-import ClientsSection from "@components/sections/landing/ClientsSection.astro";
 import HeroSection from "@components/sections/landing/HeroSection.astro";
 import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
 import FAQ from "@components/sections/misc/FAQ.astro";
 import PricingSection from "@components/sections/pricing/PricingSection.astro";
-import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import pricing from "@data/pricing.json";
@@ -23,7 +21,7 @@ const avatarSrcs: Array<string> = [];
 
 <MainLayout>
   <HeroSection
-    title=`Proyek Terbaik Anda \n <span
+    title=`Partner Terbaik Anda \n <span
         class="text-yellow-500 dark:text-yellow-400">PT Perancah Pro Alat</span>`
     subTitle="Top-quality construction materials and expert construction services for every project need."
     primaryBtn="Contact Our Sales Team"
@@ -84,7 +82,7 @@ const avatarSrcs: Array<string> = [];
     ]}
   />
 
-  <TestimonialsSection
+  <!-- <TestimonialsSection
     title="Fast-Track Your Projects"
     subTitle="At PT Perancah Pro Alat, we ensure a swift project building experience. Experience the speed of construction redefined."
     ;
@@ -119,7 +117,7 @@ const avatarSrcs: Array<string> = [];
         description: "quicker assembly using innovative fastening solutions",
       },
     ]}
-  />
+  /> -->
 
   <PricingSection pricing={pricing} />
 
