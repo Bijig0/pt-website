@@ -1,5 +1,5 @@
 export const aboutUs = [
-  "With over 20 years of experience in the construction industry, our company has built a reputation for delivering exceptional quality and craftsmanship. From the beginning, our mission has been simple: to construct projects that stand the test of time while exceeding our clients' expectations.",
+  "With over years of experience in the construction industry, our company has built a reputation for delivering exceptional quality and craftsmanship. From the beginning, our mission has been simple: to construct projects that stand the test of time while exceeding our clients' expectations.",
 
   "Our success is built on the foundation of a dedicated core group of workers who bring unparalleled expertise and commitment to every project. This team, many of whom have been with us from the start, shares a deep passion for building and a relentless focus on excellence. Whether it’s a commercial building, a residential development, or a specialized construction project, we approach each job with the same dedication to quality, safety, and innovation.",
 
@@ -9,4 +9,3 @@ export const aboutUs = [
 
   "Thank you for considering us for your next project. We look forward to the opportunity to build something great together.",
 ];
- 
