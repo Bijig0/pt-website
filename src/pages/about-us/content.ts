@@ -5,7 +5,7 @@ export const aboutUs = [
 
   "We take pride in our ability to manage projects from concept to completion, ensuring that every detail is meticulously executed. Our clients trust us not only because of our technical skills but also because of our integrity, transparency, and unwavering commitment to their vision.",
 
-  "Over the past two decades, we've had the privilege of working on a diverse range of projects, each one adding to our legacy of success. As we look to the future, we remain committed to maintaining the high standards that have made us a leader in the construction industry.",
+  "Over the years, we've had the privilege of working on a diverse range of projects, each one adding to our legacy of success. As we look to the future, we remain committed to maintaining the high standards that have made us a leader in the construction industry.",
 
   "Thank you for considering us for your next project. We look forward to the opportunity to build something great together.",
 ];
