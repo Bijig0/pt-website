@@ -26,12 +26,6 @@
     "price": "",
     "cents": "",
     "billingFrequency": "",
-    "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
-    ],
     "purchaseBtnTitle": "Contact Our Sales Team",
     "purchaseLink": "#"
   }
